@@ -10,8 +10,8 @@ This project is a Twitter Monitor that checks the latest tweets from a list of m
 - Timezone-aware comparison of tweet creation times to ensure that only new tweets are posted.
 
 # Technologies Used
-Python: Main programming language for writing the script.
-Tweepy: Python wrapper for interacting with the Twitter API v2.
-requests: To send data to the Discord webhook.
-pytz: To handle timezone-aware datetime comparisons between the tweet time and the script's current time.
-dotenv: For securely loading API credentials (Bearer Token and Discord Webhook URL) from a .env file.
+- Python: Main programming language for writing the script.
+- Tweepy: Python wrapper for interacting with the Twitter API v2.
+- requests: To send data to the Discord webhook.
+- pytz: To handle timezone-aware datetime comparisons between the tweet time and the script's current time.
+- dotenv: For securely loading API credentials (Bearer Token and Discord Webhook URL) from a .env file.
